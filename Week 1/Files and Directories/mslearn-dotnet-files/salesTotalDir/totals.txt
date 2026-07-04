@@ -1,0 +1,12 @@
+Sales Summary
+Total Sales: R$ 2.012,20
+Details:
+sales.json: R$ 88,88
+sales.json: R$ 501,22
+salestotals.json: R$ 0,00
+sales.json: R$ 1.234,22
+salestotals.json: R$ 0,00
+sales.json: R$ 99,00
+salestotals.json: R$ 0,00
+sales.json: R$ 88,88
+salestotals.json: R$ 0,00

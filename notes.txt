@@ -1,0 +1,64 @@
+Sales Summary
+Total Sales: R$ 2.012,20
+Details:
+sales.json: R$ 88,88
+sales.json: R$ 501,22
+salestotals.json: R$ 0,00
+sales.json: R$ 1.234,22
+salestotals.json: R$ 0,00
+sales.json: R$ 99,00
+salestotals.json: R$ 0,00
+sales.json: R$ 88,88
+salestotals.json: R$ 0,00
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Sat, 04 Jul 2026 18:23:10 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+  }
+]
+
+
+HTTP/1.1 201 Created
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Sat, 04 Jul 2026 18:25:10 GMT
+Server: Kestrel
+Location: http://localhost:5110/Pizza/4
+Transfer-Encoding: chunked
+
+{
+  "id": 4,
+  "name": "Pepperoni",
+  "isGlutenFree": false
+}
+
+HTTP/1.1 204 No Content
+Connection: close
+Date: Sat, 04 Jul 2026 18:25:16 GMT
+Server: Kestrel
+
+HTTP/1.1 204 No Content
+Connection: close
+Date: Sat, 04 Jul 2026 18:27:47 GMT
+Server: Kestrel
+
+
